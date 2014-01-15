@@ -324,7 +324,6 @@ int main(void)
 	free(st);
 	*/
 
-	/*
 	GVC_t* gvc = gvContext();
 	Agraph_t* g = agopen("Case Graph", Agdirected, 0);
 	agattr(g, AGRAPH, "rankdir", "TB");
@@ -354,8 +353,8 @@ int main(void)
 		perror("fclose");
 	gvFreeContext(gvc);
 	return 0;
-	*/
 
+	/*
 	GVC_t* gvc = gvContext();
 	Agraph_t* g = agopen("Case Graph", Agdirected, 0);
 	agattr(g, AGRAPH, "rankdir", "LR");
@@ -382,4 +381,5 @@ int main(void)
 		perror("fclose");
 	gvFreeContext(gvc);
 	return 0;
+	*/
 }
